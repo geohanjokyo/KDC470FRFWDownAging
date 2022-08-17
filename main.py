@@ -23,12 +23,12 @@ class aging(unittest.TestCase):
             desired_capabilities={
                 "platformName": "Android",
                 "platformVersion": "12",# 실행할 폰에 맞추어 정보 수정 필요
-                "deviceName": "GTA3",# 실행할 폰에 맞추어 정보 수정 필요
+                "deviceName": "A32",# 실행할 폰에 맞추어 정보 수정 필요
                 "automationName": "Appium",
                 "newCommandTimeout": 3000,
                 "appPackage": "com.koamtac.ktsimplebledemofw",
                 "appActivity": "com.koamtac.ktsimplebledemofw.MainActivity",
-                "udid": "R54R1029CWB",# 실행할 폰에 맞추어 정보 수정 필요
+                "udid": "RF9R202KAWL",# 실행할 폰에 맞추어 정보 수정 필요
                 "noReset": "true"  # app 데이터 유지
             })
 
@@ -316,7 +316,7 @@ class aging(unittest.TestCase):
                                             "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.Button[2]").click()
                         sleep(3)
                         # fw 업데이트 대기(12분)
-                        sleep(7230)
+                        sleep(730)
                         # 재연결
                         driver.find_element(By.XPATH, '//android.widget.ImageView[@content-desc="옵션 더보기"]').click()
                         sleep(3)
@@ -383,7 +383,7 @@ class aging(unittest.TestCase):
                                             "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.Button[2]").click()
                         sleep(3)
                         # fw 업데이트 대기(12분)
-                        sleep(7230)
+                        sleep(730)
                         # 재연결
                         driver.find_element(By.XPATH, '//android.widget.ImageView[@content-desc="옵션 더보기"]').click()
                         sleep(3)
