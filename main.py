@@ -25,7 +25,7 @@ class aging(unittest.TestCase):
                 "platformVersion": "12",# 실행할 폰에 맞추어 정보 수정 필요
                 "deviceName": "A32",# 실행할 폰에 맞추어 정보 수정 필요
                 "automationName": "Appium",
-                "newCommandTimeout": 3000,
+                "newCommandTimeout": 3600,
                 "appPackage": "com.koamtac.ktsimplebledemofw",
                 "appActivity": "com.koamtac.ktsimplebledemofw.MainActivity",
                 "udid": "RF9R202KAWL",# 실행할 폰에 맞추어 정보 수정 필요
